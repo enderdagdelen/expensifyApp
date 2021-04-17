@@ -1,0 +1,51 @@
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
+
+.form-basligi{
+    font-size: 3rem;
+    color: rgb(38, 0, 255);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#InputField-ok,#InputField-ok-1{
+    font-size: 2rem;
+}
+
+#InputField-hata{
+    font-size: 2rem;
+    color: crimson;
+}
+#select-seyahatfiltresi,#seyahat-filtresi-prepend{
+    font-size: 1.5rem;
+}
+
+#seyahatgorevtablosu{
+font-size: 1.15rem;
+}
+
+#filtreleme-tablosu{
+    background-color: paleturquoise;
+}
+
