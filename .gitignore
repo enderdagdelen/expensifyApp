@@ -5,3 +5,4 @@ public/bundle.map.js
 public/style.css
 public/style.css.map
 yarn.lock
+package-lock.json
