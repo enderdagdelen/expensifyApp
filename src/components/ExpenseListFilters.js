@@ -82,7 +82,7 @@ const mapDispatchToProps = (dispatch) => {
 
 }
 
-export default connect(mapPropsToState)(ExpenseListFilters);
+export default connect(mapPropsToState,mapDispatchToProps)(ExpenseListFilters);
 
 
 
