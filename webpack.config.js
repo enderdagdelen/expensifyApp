@@ -13,7 +13,7 @@ module.exports = (env, argv) => {
         entry: './src/app.js',
         //entry: './src/select.js',
         output:{
-            path:path.join(__dirname,'public'),
+            path:path.join(__dirname,'public','dist'),
             filename:'bundle.js'
         },
         module:{
@@ -48,7 +48,8 @@ module.exports = (env, argv) => {
         devtool: isProduction ? 'source-map' :'inline-cheap-module-source-map',
         devServer:{
             contentBase:path.join(__dirname,'public'),//Burayı live server yerine kullanıyoruz sadece. index dosyamızın nerede olduğunu tam adres olarak girmiş oluyoruz.
-            historyApiFallback:true
+            historyApiFallback:true,
+            publicPath:'/dist/'
         }
     }
 }

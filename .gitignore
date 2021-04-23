@@ -1,8 +1,5 @@
 node_modules
 src/playground
-public/bundle.js
-public/bundle.map.js
-public/style.css
-public/style.css.map
+public/dist/
 yarn.lock
 package-lock.json
