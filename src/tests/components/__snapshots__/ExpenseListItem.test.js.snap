@@ -8,11 +8,10 @@ exports[`should return expense list item 1`] = `
   </h3>
   <p>
     Amount:
-    195
+    $195.00
   </p>
   <p>
-    createdAt:
-    0
+    1 January 1970
   </p>
   <Link
     to="/edit/1"
